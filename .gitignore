@@ -1,5 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/assets/harry potter trivia
+/assets/tech-icons
+/assets/bg/unused
+/assets/bookmarks-app/mobile/unused
+/assets/bookmarks-app/desktop/unused
+
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +27,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+*.swo
+*.swp
+*.un~
