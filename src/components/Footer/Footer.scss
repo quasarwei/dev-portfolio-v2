@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-top: 1px solid black;
+  height: 50px;
+  padding: 1rem;
+
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+
+.footer__nav {
+  margin: 0;
+}
+
+.footer__nav-link {
+  font-size: 14px;
+  padding: 0.5rem;
+}
