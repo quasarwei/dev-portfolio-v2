@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .App {
   text-align: center;
   position: relative;
@@ -6,11 +8,34 @@
 
 .page {
   position: absolute;
-  border: 2px solid red;
-  padding: 0;
+  padding: 1rem 1rem;
   margin: 0 auto;
   // margin-top: 50px;
   width: 100%;
   top: 50px;
   bottom: 50px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: $color-font-normal $color-background;
+  text-align: left;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+a {
+  color: $color-primary;
+
+  &:hover {
+    color: $color-secondary;
+  }
+
+  &:active {
+    color: $color-tertiary;
+  }
+  &:focus {
+    color: $color-tertiary;
+  }
 }

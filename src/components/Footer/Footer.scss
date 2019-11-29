@@ -1,9 +1,11 @@
+@import '../../variables.scss';
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  border-top: 1px solid black;
+  border-top: 1px solid $color-font-normal;
   height: 50px;
   padding: 1rem;
 

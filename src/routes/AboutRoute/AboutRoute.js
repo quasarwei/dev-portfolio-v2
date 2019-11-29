@@ -13,6 +13,7 @@ export default function AboutRoute() {
           <a
             href="https://giphy.com/quasarwei/search/processing"
             target="_blank"
+            rel="noopener noreferrer"
             class="about__bio--link"
           >
             experimental artworks
@@ -21,18 +22,25 @@ export default function AboutRoute() {
           <a
             href="https://cymatics.fm/blogs/production/fm-synthesis"
             target="_blank"
+            rel="noopener noreferrer"
             class="about__bio--link"
           >
             FM synthesizer
           </a>{' '}
           with{' '}
-          <a href="https://juce.com/" target="_blank" class="about__bio--link">
+          <a
+            href="https://juce.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="about__bio--link"
+          >
             JUCE
           </a>
           , learned how to program in game engines like{' '}
           <a
             href="https://www.cryengine.com/"
             target="_blank"
+            rel="noopener noreferrer"
             class="about__bio--link"
           >
             CryEngine
@@ -52,15 +60,17 @@ export default function AboutRoute() {
           <a
             href="https://www.artstation.com/quasarwei"
             target="_blank"
+            rel="noopener noreferrer"
             class="about__bio--link"
           >
             3D artist
-          </a>
+          </a>{' '}
           and would like to be an environment artist in games someday. I also
           produce synthwave beats and ambient{' '}
           <a
             href="https://soundcloud.com/neon-gloom"
             target="_blank"
+            rel="noopener noreferrer"
             class="about__bio--link"
           >
             music

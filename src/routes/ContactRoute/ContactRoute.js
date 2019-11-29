@@ -1,29 +1,44 @@
 import React from 'react';
+import './ContactRoute.scss';
 
 export default function ContactRoute() {
   return (
-    <section className="page">
+    <section className="page contact-page">
       <h1>Contact</h1>
       <h2>I'm in</h2>
       <p>Los Angeles, CA</p>
 
       <h2>Reach Me At</h2>
-      <p>quasarwei at alum dot calarst dot edu</p>
+      <a href="mailto: quasarwei@alum.calarts.edu">
+        quasarwei at alum dot calarts dot edu
+      </a>
 
       <h2>See More/Connect</h2>
       <ul>
         <li>
-          <a href="https://github.com/quasarwei" target="_blank">
+          <a
+            href="https://github.com/quasarwei"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/quasarwei/" target="_blank">
+          <a
+            href="https://linkedin.com/in/quasarwei/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://quasarwei.com" target="_blank">
+          <a
+            href="https://quasarwei.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Art Portfolio
           </a>
         </li>
@@ -31,16 +46,24 @@ export default function ContactRoute() {
           <a
             href="https://quasarwei.squarespace.com/s/quasar_resume_0219.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Resume
           </a>
         </li>
       </ul>
 
-      <form action="https://www.enformed.io/94hygtkr" method="POST">
+      <form
+        id="contact-form"
+        action="https://www.enformed.io/94hygtkr"
+        method="POST"
+      >
         <fieldset>
-          <legend />
-          <label htmlFor="">
+          <legend>
+            <h2>Contact</h2>
+          </legend>
+          <label htmlFor="name-input">
+            Name
             <input
               type="text"
               className="form__input-short"
@@ -50,7 +73,9 @@ export default function ContactRoute() {
               required
             />
           </label>
-          <label htmlFor="">
+          <label htmlFor="email-input">
+            {' '}
+            Email
             <input
               type="email"
               className="form__input-short"
@@ -60,7 +85,9 @@ export default function ContactRoute() {
               required
             />
           </label>
-          <label htmlFor="">
+          <label htmlFor="subject-input">
+            {' '}
+            Subject
             <input
               type="text"
               className="form__input-long"
@@ -70,7 +97,9 @@ export default function ContactRoute() {
               required
             />
           </label>
-          <label htmlFor="">
+          <label htmlFor="message-input">
+            {' '}
+            Message
             <textarea
               rows="8"
               id="message-input"

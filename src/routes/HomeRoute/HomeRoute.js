@@ -23,6 +23,7 @@ export default function HomeRoute() {
         <a
           href="https://www.thinkful.com/bootcamp/web-development/full-time/"
           target="_blank"
+          rel="noopener noreferrer"
           className="landing__desc--link"
         >
           Engineering Immersion
