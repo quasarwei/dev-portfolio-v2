@@ -6,8 +6,10 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 1px solid $color-font-normal;
+  border-bottom: 1px solid $color-border-dark;
+  background-color: $color-background;
   position: fixed;
+  z-index: 10;
   top: 0;
   width: 100%;
 
@@ -20,7 +22,7 @@ header {
     height: 100%;
     width: 50px;
     margin-right: 1rem;
-    border-right: 1px solid $color-font-normal;
+    // border-right: 1px solid $color-font-normal;
 
     > video {
       height: 100%;

@@ -1,13 +1,24 @@
 @import '../../variables.scss';
 
 #landing-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 20vh;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
 }
 
 .landing__logo {
-  border-radius: 4px;
-  border: 2px solid $color-font-normal;
+  border: 1.5px solid $color-border-dark;
+  width: 40%;
+  max-width: 200px;
+}
+
+.landing__title {
+  color: $color-font-normal;
+}
+
+.landing__desc {
+  color: $color-font-normal;
 }

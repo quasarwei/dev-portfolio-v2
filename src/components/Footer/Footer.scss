@@ -5,8 +5,9 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  border-top: 1px solid $color-font-normal;
-  height: 50px;
+  border-top: 1px solid $color-border-dark;
+  background-color: $color-background;
+  height: 40px;
   padding: 1rem;
 
   position: fixed;
@@ -22,4 +23,5 @@ footer {
 .footer__nav-link {
   font-size: 14px;
   padding: 0.5rem;
+  text-decoration: none;
 }

@@ -13,10 +13,10 @@
   // margin-top: 50px;
   width: 100%;
   top: 50px;
-  bottom: 50px;
+  bottom: 40px;
   overflow: auto;
   scrollbar-width: thin;
-  scrollbar-color: $color-font-normal $color-background;
+  scrollbar-color: $color-border-dark $color-background;
   text-align: left;
 
   ul {

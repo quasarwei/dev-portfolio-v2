@@ -14,7 +14,7 @@ export default function AboutRoute() {
             href="https://giphy.com/quasarwei/search/processing"
             target="_blank"
             rel="noopener noreferrer"
-            class="about__bio--link"
+            className="about__bio--link"
           >
             experimental artworks
           </a>
@@ -23,7 +23,7 @@ export default function AboutRoute() {
             href="https://cymatics.fm/blogs/production/fm-synthesis"
             target="_blank"
             rel="noopener noreferrer"
-            class="about__bio--link"
+            className="about__bio--link"
           >
             FM synthesizer
           </a>{' '}
@@ -32,7 +32,7 @@ export default function AboutRoute() {
             href="https://juce.com/"
             target="_blank"
             rel="noopener noreferrer"
-            class="about__bio--link"
+            className="about__bio--link"
           >
             JUCE
           </a>
@@ -41,7 +41,7 @@ export default function AboutRoute() {
             href="https://www.cryengine.com/"
             target="_blank"
             rel="noopener noreferrer"
-            class="about__bio--link"
+            className="about__bio--link"
           >
             CryEngine
           </a>{' '}
@@ -61,7 +61,7 @@ export default function AboutRoute() {
             href="https://www.artstation.com/quasarwei"
             target="_blank"
             rel="noopener noreferrer"
-            class="about__bio--link"
+            className="about__bio--link"
           >
             3D artist
           </a>{' '}
@@ -71,7 +71,7 @@ export default function AboutRoute() {
             href="https://soundcloud.com/neon-gloom"
             target="_blank"
             rel="noopener noreferrer"
-            class="about__bio--link"
+            className="about__bio--link"
           >
             music
           </a>

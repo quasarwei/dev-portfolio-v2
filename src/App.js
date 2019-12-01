@@ -10,19 +10,25 @@ import ContactRoute from './routes/ContactRoute/ContactRoute';
 
 import './App.scss';
 
-function App() {
-  return (
-    <main className="App">
-      <Header />
-      <Switch>
-        <Route exact path={'/'} component={HomeRoute} />
-        <Route eact path={'/about'} component={AboutRoute} />
-        <Route exact path={'/projects'} component={ProjectsRoute} />
-        <Route exact path={'/contact'} component={ContactRoute} />
-      </Switch>
-      <Footer />
-    </main>
-  );
+class App extends React.Component {
+  state = {
+    currPage: 'home',
+  };
+
+  render() {
+    return (
+      <main className="App">
+        <Header />
+        <Switch>
+          <Route exact path={'/'} component={HomeRoute} />
+          <Route eact path={'/about'} component={AboutRoute} />
+          <Route exact path={'/projects'} component={ProjectsRoute} />
+          <Route exact path={'/contact'} component={ContactRoute} />
+        </Switch>
+        <Footer />
+      </main>
+    );
+  }
 }
 
 export default App;

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Space+Mono&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Fira+Mono|Space+Mono&display=swap');
+// @import url('https://use.typekit.net/fbn3ddt.css');
 @import './variables.scss';
 
 * {
@@ -15,11 +16,19 @@ html {
   background-size: cover;
 }
 
+// axia
+// axi-stenci
+// rigid-square
+// objektiv-mk1
+// aktiv-grotesk
+
 body {
-  font-family: 'Fira Mono', sans-serif;
+  font-family: 'rigid-square', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
   padding: 0;
   margin: 0 auto;
   height: 100vh;
@@ -34,7 +43,37 @@ body {
   height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: 'axia', sans-serif;
+  font-family: 'rigid-square', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  color: $color-tertiary;
 }
+
+h2 {
+  font-family: 'axia', sans-serif;
+  font-family: 'rigid-square', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: $color-secondary;
+}
+
+h3 {
+  font-family: 'axia', sans-serif;
+  font-family: 'rigid-square', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: $color-primary;
+}
+
+h4 {
+  font-family: 'axia', sans-serif;
+  font-family: 'rigid-square', sans-serif;
+}
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
