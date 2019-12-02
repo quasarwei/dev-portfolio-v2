@@ -68,7 +68,7 @@ export default class ContactRoute extends React.Component {
           </li>
           <li>
             <a
-              href="https://quasarwei.squarespace.com/s/quasar_resume_0219.pdf"
+              href="https://quasarwei.squarespace.com/s/quasar_resume_120219.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
