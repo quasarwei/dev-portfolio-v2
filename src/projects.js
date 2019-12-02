@@ -6,7 +6,7 @@ const projects = [
     liveSite: 'https://tonelab.quasar.now.sh/',
     repoClient: 'https://github.com/quasarwei/ToneLab',
     repoServer: 'https://github.com/quasarwei/sequencer-server',
-    techStack: ['Tone.js', 'React', 'Node', 'PostgreSQL', 'Express'],
+    techStack: ['Tone.js', 'React', 'Node', 'Express', 'PostgreSQL'],
     images: [
       'https://quasarwei.github.io/assets/tonelab/editor-screenshot.webp',
     ],
@@ -20,7 +20,7 @@ const projects = [
       'https://github.com/thinkful-ei-gecko/quasar-nandana-spaced-repetition-client',
     repoServer:
       'https://github.com/thinkful-ei-gecko/quasar-nandana-spaced-repetition-server',
-    techStack: ['React', 'Node', 'PostgreSQL', 'Express'],
+    techStack: ['React', 'Node', 'Express', 'PostgreSQL'],
     images: [
       'https://quasarwei.github.io/assets/morse/morse-signup-m_rs.jpg',
       'https://quasarwei.github.io/assets/morse/morse-dash-m_rs.jpg',

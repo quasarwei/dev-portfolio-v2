@@ -8,16 +8,44 @@ export default class Footer extends React.Component {
     return (
       <footer>
         <nav className="footer__nav">
-          <Link className="footer__nav-link" to="/">
+          <Link
+            className={
+              this.props.currPage === 'home'
+                ? 'footer__nav-link footer__nav-link--active'
+                : 'footer__nav-link'
+            }
+            to="/"
+          >
             Home
           </Link>
-          <Link className="footer__nav-link" to="/Projects">
+          <Link
+            className={
+              this.props.currPage === 'projects'
+                ? 'footer__nav-link footer__nav-link--active'
+                : 'footer__nav-link'
+            }
+            to="/Projects"
+          >
             Projects
           </Link>
-          <Link className="footer__nav-link" to="/About">
+          <Link
+            className={
+              this.props.currPage === 'about'
+                ? 'footer__nav-link footer__nav-link--active'
+                : 'footer__nav-link'
+            }
+            to="/About"
+          >
             About
           </Link>
-          <Link className="footer__nav-link" to="/Contact">
+          <Link
+            className={
+              this.props.currPage === 'contact'
+                ? 'footer__nav-link footer__nav-link--active'
+                : 'footer__nav-link'
+            }
+            to="/Contact"
+          >
             Contact
           </Link>
         </nav>

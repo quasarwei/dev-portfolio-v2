@@ -21,6 +21,9 @@ export default class ContactRoute extends React.Component {
   touchMessage = () => {
     this.setState({ messageTouched: true });
   };
+  componentDidMount() {
+    this.props.setPage('contact');
+  }
 
   render() {
     return (

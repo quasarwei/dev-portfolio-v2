@@ -1,0 +1,15 @@
+.about {
+  max-width: 800px;
+}
+
+.about__skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.about__skill-group {
+  width: 150px;
+  margin: 0.5rem 1rem;
+  flex: 0 0 150px;
+}

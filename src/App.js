@@ -15,17 +15,51 @@ class App extends React.Component {
     currPage: 'home',
   };
 
+  setCurrPage = currPage => {
+    this.setState({ currPage });
+  };
+
   render() {
     return (
       <main className="App">
         <Header />
         <Switch>
-          <Route exact path={'/'} component={HomeRoute} />
-          <Route eact path={'/about'} component={AboutRoute} />
-          <Route exact path={'/projects'} component={ProjectsRoute} />
-          <Route exact path={'/contact'} component={ContactRoute} />
+          <Route
+            exact
+            path={'/'}
+            render={props => (
+              <HomeRoute {...props} setPage={page => this.setCurrPage(page)} />
+            )}
+          />
+          <Route
+            exact
+            path={'/about'}
+            render={props => (
+              <AboutRoute {...props} setPage={page => this.setCurrPage(page)} />
+            )}
+          />
+          <Route
+            exact
+            path={'/projects'}
+            render={props => (
+              <ProjectsRoute
+                {...props}
+                setPage={page => this.setCurrPage(page)}
+              />
+            )}
+          />
+          <Route
+            exact
+            path={'/contact'}
+            render={props => (
+              <ContactRoute
+                {...props}
+                setPage={page => this.setCurrPage(page)}
+              />
+            )}
+          />
         </Switch>
-        <Footer />
+        <Footer currPage={this.state.currPage} />
       </main>
     );
   }

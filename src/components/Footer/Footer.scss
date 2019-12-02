@@ -24,4 +24,20 @@ footer {
   font-size: 14px;
   padding: 0.5rem;
   text-decoration: none;
+  transition: font-size 300ms ease-out;
+
+  &:hover {
+    font-size: 20px;
+    transition: font-size 300ms ease-out;
+  }
+
+  &--active {
+    font-size: 20px;
+    color: $color-secondary;
+    transition: font-size 300ms ease-out;
+
+    &:focus {
+      color: $color-secondary;
+    }
+  }
 }
