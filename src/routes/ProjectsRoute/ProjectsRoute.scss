@@ -1,0 +1,21 @@
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 520px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-list {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .projects-list {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+}
