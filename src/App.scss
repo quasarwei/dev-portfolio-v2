@@ -4,6 +4,7 @@
   text-align: center;
   position: relative;
   height: 100%;
+  overflow: hidden;
 }
 
 .page {
@@ -17,6 +18,10 @@
   overflow: auto;
   scrollbar-width: thin;
   scrollbar-color: $color-border-dark $color-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 
   text-align: left;
 
@@ -40,18 +45,22 @@
   &.fade-enter {
     opacity: 0;
     z-index: 1;
+    left: 100%;
   }
   &.fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 350ms ease-in;
+    left: 0;
+    transition: all 400ms ease-in-out;
   }
   &.fade-exit {
     opacity: 1;
+    left: 0;
     z-index: 0;
   }
   &.fade-exit.fade-exit-active {
     opacity: 0;
-    transition: opacity 350ms ease-in;
+    left: -100%;
+    transition: all 400ms ease-in-out;
   }
 }
 
@@ -68,4 +77,20 @@ a {
   &:focus {
     color: $color-tertiary;
   }
+}
+
+@media only screen and (min-width: 520px) {
+  .page {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1200px) {
+  .page {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1600px) {
 }

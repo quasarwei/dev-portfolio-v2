@@ -32,7 +32,7 @@ class App extends React.Component {
                 key={location.key}
                 {...location.state}
                 classNames="fade"
-                timeout={350}
+                timeout={400}
               >
                 <Switch location={location}>
                   <Route
