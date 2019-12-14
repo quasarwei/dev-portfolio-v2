@@ -12,6 +12,28 @@ const projects = [
     ],
   },
   {
+    name: 'Groop',
+    description: 'An online task manager for groups and organizations',
+    liveSite: 'https://grooplist.com',
+    repoClient: 'https://github.com/joeyjr95/groop-client/',
+    repoServer: 'https://github.com/quasarwei/groop-api/',
+    techStack: [
+      'React',
+      'Node',
+      'Express',
+      'PostgreSQL',
+      'Knex',
+      'Mocha',
+      'Chai',
+    ],
+    images: [
+      'https://quasarwei.github.io/assets/groop/groop_agenda_all_rs.jpg',
+      'https://quasarwei.github.io/assets/groop/groop_sidebar_group_rs.jpg',
+      'https://quasarwei.github.io/assets/groop/groop_account_settings_rs.jpg',
+      'https://quasarwei.github.io/assets/groop/groop_edit_task_rs.jpg',
+    ],
+  },
+  {
     name: 'Learn Morse Code',
     description:
       'A full-stack web-app that utilizes spaced repetition to help people learn morse code. ',
