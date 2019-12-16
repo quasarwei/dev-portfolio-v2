@@ -7,9 +7,7 @@ const projects = [
     repoClient: 'https://github.com/quasarwei/ToneLab',
     repoServer: 'https://github.com/quasarwei/sequencer-server',
     techStack: ['Tone.js', 'React', 'Node', 'Express', 'PostgreSQL'],
-    images: [
-      'https://quasarwei.github.io/assets/tonelab/editor-screenshot.webp',
-    ],
+    images: [require('./assets/tonelab/editor-screenshot.webp')],
   },
   {
     name: 'Groop',
@@ -27,10 +25,10 @@ const projects = [
       'Chai',
     ],
     images: [
-      'https://quasarwei.github.io/assets/groop/groop_agenda_all_rs.jpg',
-      'https://quasarwei.github.io/assets/groop/groop_sidebar_group_rs.jpg',
-      'https://quasarwei.github.io/assets/groop/groop_account_settings_rs.jpg',
-      'https://quasarwei.github.io/assets/groop/groop_edit_task_rs.jpg',
+      require('./assets/groop/groop_agenda_all_rs.jpg'),
+      require('./assets/groop/groop_sidebar_group_rs.jpg'),
+      require('./assets/groop/groop_account_settings_rs.jpg'),
+      require('./assets/groop/groop_edit_task_rs.jpg'),
     ],
   },
   {
@@ -44,10 +42,10 @@ const projects = [
       'https://github.com/thinkful-ei-gecko/quasar-nandana-spaced-repetition-server',
     techStack: ['React', 'Node', 'Express', 'PostgreSQL'],
     images: [
-      'https://quasarwei.github.io/assets/morse/morse-signup-m_rs.jpg',
-      'https://quasarwei.github.io/assets/morse/morse-dash-m_rs.jpg',
-      'https://quasarwei.github.io/assets/morse/morse-learn-m_rs.jpg',
-      'https://quasarwei.github.io/assets/morse/morse-answer-m_rs.jpg',
+      require('./assets/morse/morse-signup-m_rs.jpg'),
+      require('./assets/morse/morse-dash-m_rs.jpg'),
+      require('./assets/morse/morse-learn-m_rs.jpg'),
+      require('./assets/morse/morse-answer-m_rs.jpg'),
     ],
   },
   {
@@ -59,9 +57,8 @@ const projects = [
     repoServer: '',
     techStack: ['HTML', 'CSS', 'jQuery'],
     images: [
-      'https://quasarwei.github.io/assets/bookmarks-app/desktop/bookmarks-desktop-rs.jpg',
+      require('./assets/bookmarks-app/desktop/bookmarks-desktop-rs.jpg'),
     ],
   },
 ];
-
-export default projects;
+module.exports = projects;

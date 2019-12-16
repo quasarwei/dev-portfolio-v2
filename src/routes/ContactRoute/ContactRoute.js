@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactRoute.scss';
+import resume from '../../assets/quasar_resume_121619.pdf';
 
 export default class ContactRoute extends React.Component {
   state = {
@@ -69,11 +70,7 @@ export default class ContactRoute extends React.Component {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://quasarwei.squarespace.com/s/quasar_resume_120219.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={resume} target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </li>
