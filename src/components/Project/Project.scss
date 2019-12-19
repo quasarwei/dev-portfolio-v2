@@ -50,14 +50,9 @@
   justify-content: center;
   align-items: center;
   width: auto;
-  max-height: 350px;
 
   > img {
-    flex: 1 1 30%;
-    width: 100%;
-    max-height: 350px;
-
-    // max-height: 250px;
+    width: 30%;
     margin: 0.15rem 0.15rem;
     border: 1px solid $color-border-dark;
   }
@@ -74,10 +69,6 @@
 }
 
 @media only screen and (min-width: 520px) {
-  .gallery {
-    > img {
-    }
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -99,10 +90,6 @@
 
   .project__links {
     align-self: center;
-  }
-  .gallery {
-    > img {
-    }
   }
 }
 @media only screen and (min-width: 1200px) {
