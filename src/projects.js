@@ -28,7 +28,7 @@ const projects = [
       require('./assets/groop/groop_agenda_all_rs.jpg'),
       require('./assets/groop/groop_sidebar_group_rs.jpg'),
       require('./assets/groop/groop_account_settings_rs.jpg'),
-      require('./assets/groop/groop_edit_task_rs.jpg'),
+      // require('./assets/groop/groop_edit_task_rs.jpg'),
     ],
   },
   {
@@ -42,7 +42,7 @@ const projects = [
       'https://github.com/thinkful-ei-gecko/quasar-nandana-spaced-repetition-server',
     techStack: ['React', 'Node', 'Express', 'PostgreSQL'],
     images: [
-      require('./assets/morse/morse-signup-m_rs.jpg'),
+      // require('./assets/morse/morse-signup-m_rs.jpg'),
       require('./assets/morse/morse-dash-m_rs.jpg'),
       require('./assets/morse/morse-learn-m_rs.jpg'),
       require('./assets/morse/morse-answer-m_rs.jpg'),

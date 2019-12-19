@@ -14,14 +14,21 @@ export default function Project(props) {
   });
   return (
     <section className="project">
-      <h2>{props.p.name}</h2>
-      <p className="project__description">{props.p.description}</p>
-      <a href={props.p.liveSite}>Live Site </a>
-      <a href={props.p.repoClient}>Code </a>
-      <a href={props.p.repoServer}>Api </a>
-      <div className="gallery">{pImages}</div>
+      <div className="project__details">
+        <h2>{props.p.name}</h2>
+        <p className="project__description">{props.p.description}</p>
+        <div className="project__links">
+          <a href={props.p.liveSite}>Live Site </a>
+          <a href={props.p.repoClient}>Client Code </a>
+          <a href={props.p.repoServer}>Server Code </a>
+        </div>
+      </div>
 
-      <p className="techStack">{techStack} </p>
+      <div className="project__gallery">
+        <div className="gallery">{pImages}</div>
+
+        <p className="techStack">{techStack} </p>
+      </div>
     </section>
   );
 }
