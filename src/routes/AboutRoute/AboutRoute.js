@@ -42,7 +42,7 @@ export default class AboutRoute extends React.Component {
               >
                 JUCE
               </a>
-              , learned how to program in game engines like{' '}
+              and learned how to program in game engines like{' '}
               <a
                 href="https://www.cryengine.com/"
                 target="_blank"

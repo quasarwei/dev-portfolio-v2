@@ -18,9 +18,23 @@ export default function Project(props) {
         <h2>{props.p.name}</h2>
         <p className="project__description">{props.p.description}</p>
         <div className="project__links">
-          <a href={props.p.liveSite}>Live Site </a>
-          <a href={props.p.repoClient}>Client Code </a>
-          <a href={props.p.repoServer}>Server Code </a>
+          <a href={props.p.liveSite} target="_blank" rel="noopener noreferrer">
+            Live Site{' '}
+          </a>
+          <a
+            href={props.p.repoClient}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Client Code{' '}
+          </a>
+          <a
+            href={props.p.repoServer}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Server Code{' '}
+          </a>
         </div>
       </div>
 
