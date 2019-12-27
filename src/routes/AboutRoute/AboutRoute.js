@@ -58,7 +58,7 @@ export default class AboutRoute extends React.Component {
               I love digging into different aspects of production and utilizing
               various skills. Web development is an extension of that. I enjoy
               the creative process which for me involves both (visual and sonic)
-              design and code.
+              design and code, and would like to work with like-minded people.
             </p>
 
             <p>
