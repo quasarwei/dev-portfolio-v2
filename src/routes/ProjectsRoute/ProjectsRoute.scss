@@ -1,7 +1,9 @@
+.projects-page {
+  // overflow-y: auto;
+}
+
 .projects-list {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
   max-width: 1200px;
 }
