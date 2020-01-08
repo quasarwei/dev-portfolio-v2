@@ -28,13 +28,15 @@ export default function Project(props) {
           >
             Client Code{' '}
           </a>
-          <a
-            href={props.p.repoServer}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Server Code{' '}
-          </a>
+          {props.p.repoServer && (
+            <a
+              href={props.p.repoServer}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Server Code{' '}
+            </a>
+          )}
         </div>
       </div>
 

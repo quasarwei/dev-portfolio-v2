@@ -23,7 +23,7 @@ export default class HomeRoute extends React.Component {
         <h2 className="landing__title">Full Stack Developer</h2>
         <h2 className="landing__title">Artist</h2>
         <h3 className="landing__desc">
-          Currently in Thinkful's{' '}
+          Recently graduated from Thinkful's{' '}
           <a
             href="https://www.thinkful.com/bootcamp/web-development/full-time/"
             target="_blank"

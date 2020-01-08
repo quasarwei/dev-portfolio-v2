@@ -41,7 +41,7 @@ export default class AboutRoute extends React.Component {
                 className="about__bio--link"
               >
                 JUCE
-              </a>
+              </a>{' '}
               and learned how to program in game engines like{' '}
               <a
                 href="https://www.cryengine.com/"
