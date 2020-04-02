@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactRoute.scss';
-import resume from '../../assets/quasar_resume_010820.pdf';
+import resume from '../../assets/quasar_resume_030820.pdf';
 
 export default class ContactRoute extends React.Component {
   state = {
