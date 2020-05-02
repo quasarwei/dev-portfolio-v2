@@ -32,7 +32,16 @@ export default class HomeRoute extends React.Component {
           >
             Engineering Immersion
           </a>{' '}
-          Program
+          Program. Currently building mini projects like{' '}
+          <a
+            href="https://3d-keyboard.now.sh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="landing__desc--link"
+          >
+            this
+          </a>{' '}
+          .
         </h3>
       </section>
     );
