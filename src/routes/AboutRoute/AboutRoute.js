@@ -114,6 +114,8 @@ export default class AboutRoute extends React.Component {
                 <li>3DS Max</li>
                 <li>Blender</li>
                 <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>XD</li>
                 <li>Substance Suite</li>
                 <li>JUCE</li>
               </ul>
