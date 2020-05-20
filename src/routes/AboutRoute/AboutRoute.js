@@ -72,17 +72,8 @@ export default class AboutRoute extends React.Component {
                 3D artist
               </a>{' '}
               and would like to be an environment artist in games someday. I
-              also produce synthwave beats and ambient{' '}
-              <a
-                href="https://soundcloud.com/neon-gloom"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="about__bio--link"
-              >
-                music
-              </a>
-              . I earned my masters in Experimental Animation from Calarts in
-              2018.
+              also produce synthwave beats and ambient music. I earned my
+              masters in Experimental Animation from Calarts in 2018.
             </p>
           </section>
           <section className="about__skills">
