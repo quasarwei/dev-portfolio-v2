@@ -92,6 +92,8 @@ export default class AboutRoute extends React.Component {
               <h2>Frontend</h2>
               <ul>
                 <li>React</li>
+                <li>Redux</li>
+                <li>three.js</li>
                 <li>jQuery</li>
                 <li>SCSS</li>
                 <li>BEM</li>

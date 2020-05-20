@@ -1,13 +1,13 @@
 import React from 'react';
 import './ContactRoute.scss';
-import resume from '../../assets/quasar_resume_030820.pdf';
+import resume from '../../assets/quasar_fullstack_resume.pdf';
 
 export default class ContactRoute extends React.Component {
   state = {
     nameTouched: false,
     emailTouched: false,
     subjectTouched: false,
-    messageTouched: false,
+    messageTouched: false
   };
 
   touchName = () => {
